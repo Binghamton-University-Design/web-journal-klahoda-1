@@ -1,1 +1,46 @@
 /*stylesheet*/
+
+body {
+  font-size: 16px;
+  margin: 2em;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+
+.alternate {
+  color: peru;
+  font-family: sans-serif;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+img.veggie {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: purple;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.tiny {
+  font-size: .5em;
+}
+
+#site-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 64px;
+}
+
