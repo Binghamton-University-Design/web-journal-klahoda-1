@@ -90,6 +90,16 @@ h1, h2 {
   display: flex;
   align-items: center;
   height: 70vh;
+  background-color: green;
+}
+
+#intro-holder {
+  background-color: hotpink;
+  text-align: center;
+}
+
+#intro-holder h1 {
+  margin-bottom: 0;
 }
 
 #work h3, #page h3 {
@@ -128,7 +138,15 @@ h1, h2 {
 .work-item img {
   display: block;
   width: 100%;
-  height: auto;
+}
+
+.work-item .work-image {
+  aspect-ratio: 4 / 3;
+}
+
+.work-item .work-image img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
 }
 
 /* PAGE */
